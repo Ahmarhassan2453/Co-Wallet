@@ -150,6 +150,20 @@ nav h2 {
     }
 }
 
+.line {
+    width:100%; /* Full width of the viewport */
+    overflow: hidden; /* Hide overflow */
+    position: relative;
+}
+
+.line img {
+    width: 100%; /* Make the image stretch to full width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra spacing below image */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    background-repeat: no-repeat; /* No repeat */
+}
+
 /* Second Section */
 .second {
     display: flex;
